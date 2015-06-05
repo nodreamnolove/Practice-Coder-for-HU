@@ -10,8 +10,6 @@
 		04C21E651B216FCC006B2E32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C21E641B216FCC006B2E32 /* main.m */; };
 		04C21E681B216FCC006B2E32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C21E671B216FCC006B2E32 /* AppDelegate.m */; };
 		04C21E6B1B216FCC006B2E32 /* testblock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C21E691B216FCC006B2E32 /* testblock.xcdatamodeld */; };
-		04C21E6E1B216FCC006B2E32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C21E6D1B216FCC006B2E32 /* ViewController.m */; };
-		04C21E711B216FCC006B2E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C21E6F1B216FCC006B2E32 /* Main.storyboard */; };
 		04C21E731B216FCC006B2E32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C21E721B216FCC006B2E32 /* Images.xcassets */; };
 		04C21E761B216FCC006B2E32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C21E741B216FCC006B2E32 /* LaunchScreen.xib */; };
 		04C21E821B216FCC006B2E32 /* testblockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C21E811B216FCC006B2E32 /* testblockTests.m */; };
@@ -36,9 +34,6 @@
 		04C21E661B216FCC006B2E32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04C21E671B216FCC006B2E32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04C21E6A1B216FCC006B2E32 /* testblock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testblock.xcdatamodel; sourceTree = "<group>"; };
-		04C21E6C1B216FCC006B2E32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04C21E6D1B216FCC006B2E32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04C21E701B216FCC006B2E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04C21E721B216FCC006B2E32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04C21E751B216FCC006B2E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04C21E7B1B216FCC006B2E32 /* testblockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testblockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,9 +86,6 @@
 			children = (
 				04C21E661B216FCC006B2E32 /* AppDelegate.h */,
 				04C21E671B216FCC006B2E32 /* AppDelegate.m */,
-				04C21E6C1B216FCC006B2E32 /* ViewController.h */,
-				04C21E6D1B216FCC006B2E32 /* ViewController.m */,
-				04C21E6F1B216FCC006B2E32 /* Main.storyboard */,
 				04C21E721B216FCC006B2E32 /* Images.xcassets */,
 				04C21E741B216FCC006B2E32 /* LaunchScreen.xib */,
 				04C21E691B216FCC006B2E32 /* testblock.xcdatamodeld */,
@@ -212,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C21E711B216FCC006B2E32 /* Main.storyboard in Resources */,
 				04C21E761B216FCC006B2E32 /* LaunchScreen.xib in Resources */,
 				04C21E731B216FCC006B2E32 /* Images.xcassets in Resources */,
 			);
@@ -235,7 +226,6 @@
 				04C21E681B216FCC006B2E32 /* AppDelegate.m in Sources */,
 				04C21E8D1B216FF6006B2E32 /* firstrViewController.m in Sources */,
 				04C21E651B216FCC006B2E32 /* main.m in Sources */,
-				04C21E6E1B216FCC006B2E32 /* ViewController.m in Sources */,
 				04C21E901B217002006B2E32 /* secondViewController.m in Sources */,
 				04C21E6B1B216FCC006B2E32 /* testblock.xcdatamodeld in Sources */,
 			);
@@ -260,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04C21E6F1B216FCC006B2E32 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04C21E701B216FCC006B2E32 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04C21E741B216FCC006B2E32 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,6 +412,7 @@
 				04C21E871B216FCC006B2E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C21E881B216FCC006B2E32 /* Build configuration list for PBXNativeTarget "testblockTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +421,7 @@
 				04C21E8A1B216FCC006B2E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
