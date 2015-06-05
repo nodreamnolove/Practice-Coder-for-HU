@@ -25,6 +25,9 @@
     inputtext.borderStyle = UITextBorderStyleRoundedRect;
     self.inputtext = inputtext;
     [self.view addSubview:inputtext];
+    /**
+     *  <#Description#>
+     */
     
     UIButton *but = [UIButton buttonWithType:UIButtonTypeCustom];
     [but addTarget:self action:@selector(btnclick) forControlEvents:UIControlEventTouchUpInside];
